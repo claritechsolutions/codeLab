@@ -1,4 +1,4 @@
-*{
+ /* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -123,7 +123,7 @@
   }
   @media (max-width:560px){
     footer{
-      position: relative;
+      position: relative; 
     }
     footer .content .box{
       width: 100%;
@@ -132,4 +132,17 @@
     footer .content .middle{
       padding-left: 0;
     }
-  }
+  }  */
+
+.footer1{
+    background-color: rgba(216, 235, 131, 0.808);
+    bottom: 0;
+    /* position: absolute; */
+    width: 100%;
+}
+
+
+.footer3{
+  padding: 30px 30px 30px 25px;
+  background-color: rgba(26, 24, 24, 0.781);
+} 
